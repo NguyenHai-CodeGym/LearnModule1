@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phương Trình Bậc Nhất 1 ẩn</title>
+</head>
+<body>
+    Nhập hệ số a <input type="number" id="a"> <br><br>
+    Nhập hệ số b <input type="number" id="b"> <br><br>
+    <button type="button" onclick="Proscess()" id="nhan">Tính</button>     <br><br>
+    <div id="result">Kết Quả :</div>
+</body>
+</html>
+<script>
+    let a = document.getElementById('a');
+    let b = document.getElementById('b');
+    let result = document.getElementById('result');
+    function Proscess(){
+        if (a.value == 0) {
+            if (b.value == 0){
+                result.innerHTML = "Phương trình vô số nghiệm";
+            } else {
+                result.innerHTML ="Phương trình vô nghiệm";
+            }
+        } else {
+            result.innerHTML = "Phương trình có nghiệm" + " " + (Number(-b.value) / Number(a.value));
+        }
+    }
+
+</script>
+    
+
+    

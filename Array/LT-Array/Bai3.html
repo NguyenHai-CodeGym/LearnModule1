@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let array = [415, 1, 65, 15, 484, 1, 548, 78, 186, 6, 48];
+      let max = 0;
+      let count = 0;
+
+      for (i = 0; i < array.length; i++) {
+        if (array[i] > max) {
+          max = array[i];
+        }
+      }
+      document.write("Giá trị lớn nhất trong mảng là: " + max + "<br>");
+
+      for (j = 0; j < array.length; j++) {
+        sum = count + array[j];
+        count = sum;
+      }
+      document.write(
+        "giá trị trung bình của các phần tử trong mãng là: " + "    " + sum / j
+      );
+    </script>
+  </body>
+</html>

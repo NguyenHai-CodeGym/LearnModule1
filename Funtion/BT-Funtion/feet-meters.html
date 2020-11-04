@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    Nhiệt độ <input type="number" id="input" />
+    <select name="Form" id="Form">
+      <option value="foot">Feet</option>
+      <option value="meter">Meters</option>
+    </select>
+    To
+    <select name="To" id="To">
+      <option value="meter">Meters</option>
+      <option value="foot">Feet</option>
+    </select>
+    <input type="button" value="Convert" onclick="convert()" />
+    <br />
+    <br />
+    <div id="result"></div>
+  </body>
+</html>
+<script>
+  const input = document.getElementById("input");
+  const Form = document.getElementById("Form");
+  const To = document.getElementById("To");
+  const result = document.getElementById("result");
+
+  function convert() {
+    const formto = Form.value + "_" + To.value;
+    switch (formto) {
+      case "meter_foot":
+        result.innerHTML = " = " + input.value * 3.279 + " " + "Feet";
+        break;
+      case "foot_meter":
+        result.innerHTML = "=" + input.value * 0.305 + " " + "Meter";
+        break;
+    }
+  }
+</script>

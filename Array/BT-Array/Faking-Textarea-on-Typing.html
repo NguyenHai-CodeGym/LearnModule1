@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <style>
+      #container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+      }
+    </style> -->
+    <title>Faking Textarea on Typing</title>
+  </head>
+  <body>
+    <center>
+      <div id="container">
+        <h3>Type anything slowly</h3>
+        <textarea
+          id="textarea"
+          cols="30"
+          rows="10"
+          oninput="action()"
+        ></textarea>
+      </div>
+    </center>
+  </body>
+</html>
+<script>
+  let textarea = document.getElementById("textarea");
+  let count = 0;
+  let origin = "Tôi là một đứa ngốc !!";
+  function action() {
+    count++;
+    if (count > origin.length) {
+      count = 0;
+    }
+    let outputArr = [];
+    for (let i = 0; i < count; i++) {
+      outputArr[i] = origin[i];
+    }
+    textarea.value = outputArr.join("");
+  }
+</script>

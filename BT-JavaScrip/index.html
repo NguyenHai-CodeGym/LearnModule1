@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button type="button" onclick="showMessage();">Click Me!</button>
+    <script>
+      function showMessage() {
+        alert("Xin Chao");
+      }
+    </script>
+    <div id="Showmess">
+      <button type="button" onclick="Showmess();">Click Here!</button>
+      <script>
+        function Showmess() {
+          document.getElementById("Showmess").innerHTML = "Xin Chao";
+        }
+      </script>
+    </div>
+    <div id="showmess">
+      <button type="button" onclick="Showmess();">Click Mouse!</button>
+      <script>
+        function Showmess() {
+          document.write("xinchao");
+        }
+      </script>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <!-- Bài 3: In tam giác vuông. Các góc vuông nằm ở các vị trí khác nhau -->
+
+    <div id="result"></div>
+    <script>
+      let result = document.getElementById("result");
+      let star = "*";
+      let space = "&nbsp;&nbsp;";
+      let space1 = "a";
+      for (let i = 1; i < 6; i++) {
+        for (let j = 0; j < i; j++) {
+          result.innerHTML += star;
+        }
+        for (let k = 0; k < 6 - i; k++) {
+          result.innerHTML += space;
+        }
+        result.innerHTML += "<br>";
+      }
+      result.innerHTML += "<br>";
+      for (let i = 1; i < 6; i++) {
+        for (let k = 0; k < 6 - i; k++) {
+          result.innerHTML += star;
+        }
+        for (let j = 0; j < i; j++) {
+          result.innerHTML += space;
+        }
+        result.innerHTML += "<br>";
+      }
+      result.innerHTML += "<br>";
+      for (let i = 1; i < 6; i++) {
+        for (let k = 0; k < 6 - i; k++) {
+          result.innerHTML += space;
+        }
+        for (let j = 0; j < i; j++) {
+          result.innerHTML += star;
+        }
+        result.innerHTML += "<br>";
+      }
+      result.innerHTML += "<br>";
+      for (let i = 1; i < 6; i++) {
+        for (let j = 0; j < i; j++) {
+          result.innerHTML += space;
+        }
+        for (let k = 0; k < 6 - i; k++) {
+          result.innerHTML += star;
+        }
+        result.innerHTML += "<br>";
+      }
+    </script>
+  </body>
+</html>

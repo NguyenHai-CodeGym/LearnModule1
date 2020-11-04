@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="display"></div>
+  </body>
+</html>
+<script>
+  let display = document.getElementById("display");
+
+  function isPrime(number) {
+    let text = "Số nguyên tố là: 2 <br>";
+    for (N = 3; N < number; N++) {
+      let count = 0;
+      for (let i = 2; i < N; i++) {
+        if (N % i == 0) {
+          count++;
+        }
+      }
+      if (count == 0) {
+        text += "Số nguyên tố là: " + N + "<br>";
+      }
+    }
+    display.innerHTML = text;
+  }
+  isPrime(10000);
+</script>

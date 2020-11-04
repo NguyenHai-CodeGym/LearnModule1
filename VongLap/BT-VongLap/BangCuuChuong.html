@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bảng Cửu Chương</title>
+</head>
+<body>
+    
+  <script>
+    let sout = "<table border='1' width='800px' cellspacing='0' cellpadding='3'>";
+    let i = 1;
+    let j = 2;
+    while (i < 10) {
+      sout = sout + "<tr>";
+      while (j < 10) {
+        sout = sout + `<td>${j} x ${i} = ${i * j}</td>`;
+        j++;
+      }
+      sout = sout + "</tr>";
+      j = 2;
+      i++;
+    }
+    sout = sout + "</table>";
+    document.write(sout);
+  </script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chuyển Đổi Tiền Tệ</title>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th>Amount</th>
+        <th>Form Currency</th>
+        <th>To Currency</th>
+      </tr>
+      <tr>
+        <td><input type="number" name="amount" id="amount" /></td>
+        <td>
+          <select name="From" id="From">
+            <option value="VND">Việt Nam</option>
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+          </select>
+        </td>
+        <td>
+          <select name="To" id="To">
+            <option value="VND">Việt Nam</option>
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+          </select>
+        </td>
+        <tr>
+          <td>
+            <button type="button" onclick="convert()">Chuyển Đổi</button>
+          </td>
+        </tr>
+      </tr>
+      <tr>
+        <td id="result">=</td>
+      </tr>
+    </table>
+    <script src="chuyendoi.js"></script>
+  </body>
+  
+</html>

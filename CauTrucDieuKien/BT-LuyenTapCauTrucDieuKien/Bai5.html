@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let KT = parseFloat(prompt("Nhập Điểm Kiểm Tra"));
+      let GK = parseFloat(prompt("Nhập Điểm Thi Giữa Kì"));
+      let CK = parseFloat(prompt("Nhập Điểm Thi Cuối Kì"));
+      const DTB = (KT + GK + CK) / 3;
+      if (DTB >= 8.5) {
+        document.write("Học Lực Giỏi");
+      } else if (DTB >= 6.5) {
+        document.write("Học Lực Khá");
+      } else if (DTB >= 4.5) {
+        document.write("Học Lực Trung Bình");
+      } else {
+        document.write("Học Lực Yếu");
+      }
+    </script>
+  </body>
+</html>

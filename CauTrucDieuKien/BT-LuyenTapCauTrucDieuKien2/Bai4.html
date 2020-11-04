@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 4</title>
+</head>
+<body>
+    <div id="container"></div>
+        Nhập chiều dài cạnh a <input type="number" id="a"> <br><br>
+        Nhập chiều dài cạnh b <input type="number" id="b"> <br><br>
+        <button type="button" onclick="Multi()" id="nhan">Tính</button>     <br><br>
+        <div id="result">Kết Quả :</div>
+</body>
+</html>
+<script>
+    let a = document.getElementById('a');
+    let b = document.getElementById('b');
+    let result = document.getElementById('result');
+
+    function Multi() {
+        result.innerHTML = ("Diện Tích Hình Chữ Nhật =" + " " + Number(a.value) * Number(b.value));
+    }
+</script>
+

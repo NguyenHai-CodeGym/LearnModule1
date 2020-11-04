@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input type="button" value="Chơi" onclick="Star()" />
+    <script>
+      function Star() {
+        let play = parseInt(prompt("Nhập vào khoảng muốn đoán"));
+        let num = Math.floor(Math.random() * play);
+        let Win = false;
+
+        while (!Win) {
+          let guess = parseInt(prompt("Nhập và số muốn đoán"));
+          if (guess === num) {
+            alert("Chúc mừng bạn");
+            Win = true;
+          } else {
+            if (guess > num) {
+              alert("Số bạn muốn đoán lớn hơn, vui lòng chọn lại");
+            } else {
+              alert("Số bạn muốn đoán bé hơn, vui lòng chọn lại");
+            }
+          }
+        }
+      }
+    </script>
+  </body>
+</html>

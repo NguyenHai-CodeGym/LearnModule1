@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <script>
+      //   let money = parseFloat(prompt("Nhập số tiền muốn vay:   $"));
+      //   let month = parseInt(prompt("Nhập số tháng muốn vay"));
+
+      let money = 1000;
+      let month = 5;
+      let rate = 0.1;
+
+      function tinhLaiSuat(money, month, rate) {
+        for (let i = 0; i < month; i++) {
+          money = money * (1 + rate);
+        }
+
+        return money;
+      }
+
+      console.log(tinhLaiSuat(money, month, rate));
+    </script> -->
+  </body>
+</html>
+<script>
+  let money = parseFloat(prompt("Nhập số tiền muốn vay:   $"));
+  let month = parseInt(prompt("Nhập số tháng muốn vay"));
+  let rate = parseFloat(prompt("Nhập lãi xuất"));
+  for (let i = 1; i <= month; i++) {
+    sum = money * rate + money;
+    document.write("Số tiền Tháng " + i + " =" + sum + " " + "$" + "<br>");
+
+    money = sum;
+  }
+</script>

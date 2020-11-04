@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script id="diem">
+      let Vatly = parseFloat(prompt("Nhập điểm Lý"));
+      let Hoahoc = parseFloat(prompt("Nhập điểm Hóa"));
+      let Sinhhoc = parseFloat(prompt("Nhập điểm Sinh"));
+      let medium = (Vatly + Hoahoc + Sinhhoc) / 3;
+      let sum = Vatly + Hoahoc + Sinhhoc;
+      document.write("Điểm trung bình =" + medium);
+      document.write("<br/>");
+      document.write("Điểm tổng cả 3 môn =" + sum);
+    </script>
+  </body>
+</html>

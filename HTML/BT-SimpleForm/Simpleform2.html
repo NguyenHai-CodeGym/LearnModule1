@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SimpleForm2</title>
+  </head>
+  <body>
+    <fieldset style="background-color: aquamarine">
+      <h2 style="color: blue">Đăng kí học viên</h2>
+    </fieldset>
+    <fieldset style="background-color: blanchedalmond">
+      <table>
+        <tr>
+          <td style="color: blue" required>Họ và tên</td>
+          <td><input type="text" name="Họ và tên" /></td>
+        </tr>
+        <tr>
+          <td style="color: blue" required>Ngày Sinh</td>
+          <td><input type="date" name="Ngày Sinh" /></td>
+        </tr>
+        <tr>
+          <td style="color: blue" required>
+            Giới Tính <br />
+            <tr>
+              <td>
+                <input type="radio" id="Nam" name="gender" value="Nam" />
+                <label for="male">Nam</label>
+                <input type="radio" id="Nữ" name="gender" value="Nữ" />
+                <label for="female">Nữ</label><br />
+              </td>
+            </tr>
+          </td>
+        </tr>
+        <tr>
+          <td style="color: blue" required>Địa chỉ</td>
+          <td><input type="text" name="Địa chỉ" /></td>
+        </tr>
+        <tr>
+          <td style="color: blue">Lớp</td>
+          <td>
+            <select name="Lớp" id="Lớp">
+              <option value="0">--Chọn Lớp--</option>
+              <option value="1">1</option>
+              <option value="1">2</option>
+              <option value="1">3</option>
+              <option value="1">4</option>
+              <option value="1">5</option>
+              <option value="1">6</option>
+              <option value="1">7</option>
+              <option value="1">8</option>
+              <option value="1">9</option>
+              <option value="1">10</option>
+              <option value="1">11</option>
+              <option value="1">12</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td style="color: blue" required>Email</td>
+          <td><input type="email" name="email" /></td>
+        </tr>
+        <tr>
+          <td style="color: blue" required>Số Điện Thoại</td>
+          <td><input type="tel" name="tel" /></td>
+        </tr>
+        <tr>
+          <td style="color: blue" required></td>
+          <td>
+            <input type="submit" name="submit" value="Đăng kí" />
+            <input type="reset" name="reset" value="Nhập Lại" />
+          </td>
+        </tr>
+      </table>
+    </fieldset>
+  </body>
+</html>

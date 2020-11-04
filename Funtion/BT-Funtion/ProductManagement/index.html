@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Product-management-application</title>
+  </head>
+  <body>
+    <div class="add-product">
+      <div class="container">
+        <h4>Add new product</h4>
+        <form class="form-inline">
+          <div class="form-group mx-sm-3 mb-2">
+            <input
+              type="text"
+              class="form-control"
+              id="input-new-product"
+              placeholder="New product"
+            />
+          </div>
+          <input
+            id="add-btn"
+            type="button"
+            onclick="addProduct()"
+            class="btn btn-primary mb-2"
+            value="Add"
+          />
+        </form>
+      </div>
+    </div>
+    <div class="product-list">
+      <div class="container">
+        <h4>Display All Product</h4>
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col">Product Name</th>
+              <th id="product-number" class="mb-2" scope="col">
+                Product number: 0
+              </th>
+              <th scope="col" class="mb-2"></th>
+            </tr>
+          </thead>
+          <tbody id="table-body"></tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="Product.js"></script>

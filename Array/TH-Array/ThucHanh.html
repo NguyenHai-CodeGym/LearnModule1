@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //   let arr = ["Toyota", "Subaru", "BMW"];
+      //   arr.push("Kia");
+      //   arr.unshift("Ferrari");
+      //   arr.shift();
+      //   //   arr.pop();
+      //   console.log(arr[0]); // "Kia
+
+      // let arr = ["30", "100", "2000"];
+      // arr.sort(function (a, b) {
+      //   // sắp xếp số
+      //   return a - b;
+      // }); //sắp xếp mảng
+      // //   arr.reverse(); // Đảo ngược mảng
+      // console.log(arr);
+
+      // var array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+      // for (var i = 0; i < array.length; i++) {
+      //   //duyệt mảng và hiện ra màn hình
+      //   console.log(array[i]);
+      // }
+
+      let array2 = ["code", "gym", "vn"];
+      array2.splice(1, 1); // xoa 1 phan tu có vị trí cụ thể trong mảng
+      var a = array2.indexOf("code"); // hiiển thị vị trí phần tử trong mảng
+      console.log(a);
+      console.log(array2);
+
+      let animals = [
+        {
+          id: 1,
+          name: "dog",
+          size: "small",
+        },
+        {
+          id: 2,
+          name: "cat",
+          size: "size",
+        },
+      ];
+      let newAnimals = animals.map(function (animal) {
+        if (animals.id == 1) {
+          animal.name = "python";
+        }
+        return animal;
+      });
+      console.log(newAnimals);
+    </script>
+  </body>
+</html>

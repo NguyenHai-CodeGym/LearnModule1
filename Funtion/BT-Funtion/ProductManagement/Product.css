@@ -1,0 +1,16 @@
+.inputproducts {
+  width: 500px;
+  padding: 5px;
+  margin: 5px;
+}
+.add {
+  padding: 3px 15px;
+  border-radius: 3px;
+  background-color: #32cd32;
+}
+.padding {
+  background-color: #dcdcdc;
+  padding: 20px;
+  border-radius: 5px;
+  width: 800px;
+}

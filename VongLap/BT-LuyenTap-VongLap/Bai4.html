@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let a = 1;
+      let b = 1;
+      //   document.write("1" + "<br>" + "1");
+      for (let i = 2; i <= 20; i++) {
+        let flb = a + b;
+        // document.write("<br>" + flb);
+        a = b;
+        b = flb;
+        if (flb % 5 == 0) {
+          document.write(" là số fibonacci chia hết cho 5");
+          break;
+        }
+      }
+    </script>
+  </body>
+</html>

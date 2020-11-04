@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <Script>
+        let id = prompt("Nhập User");
+        if ( id == 'Admin'){
+            let password = prompt("Nhập mật khẩu");
+            if (password == 'TheMaster'){
+                alert('Welcome');
+            } else if (password == 'null'){
+                alert('Canceled');
+            }
+            else{
+                alert('Wrong password');
+            }
+        }else if (id == 'null'){
+            alert('Canceled');
+        }else{
+            alert ("Tài Khoản không tồn Tại");
+        }
+    </Script>
+</body>
+</html>
