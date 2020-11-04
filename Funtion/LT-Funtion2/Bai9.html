@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let arr1 = [];
+      function check() {
+        count = 0;
+        for (let i = 0; i < 3; i++) {
+          let text = prompt("Nhập vào mãng: ");
+          arr1.push(text);
+        }
+
+        let input = prompt("Nhập vào một kí tự bất kì: ");
+        for (let j = 0; j < arr1.length; j++) {
+          if (input === arr1[j]) {
+            count++;
+          }
+        }
+        document.write(
+          "Số lần lặp của " + input + " là: " + (count > 0 ? count : -1)
+        );
+      }
+
+      check();
+    </script>
+  </body>
+</html>

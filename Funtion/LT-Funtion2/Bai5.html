@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="result"></div>
+  </body>
+</html>
+<script>
+  let a = parseInt(prompt("Nhập vào số a"));
+  let b = parseInt(prompt("Nhập vào số b"));
+  let c = parseInt(prompt("Nhập vào số c"));
+  let result = document.getElementById("result");
+  function max() {
+    if (a > b) {
+      if (a > c) {
+        document.write(a + " " + "là số lớn nhất");
+      } else {
+        document.write(c + " " + "là số lớn nhất");
+      }
+    } else if (b > c) {
+      document.write(b + " " + "là số lớn nhất");
+    } else {
+      document.write(c + " " + "là số lớn nhất");
+    }
+  }
+  max();
+</script>

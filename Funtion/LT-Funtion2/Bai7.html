@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let num1 = parseInt(prompt("Nhập vào số a"));
+      let num2 = parseInt(prompt("Nhập vào số b"));
+      let x = 0;
+      function reverse(num1, num2) {
+        x = num1;
+        num1 = num2;
+        num2 = x;
+        document.write(num1 + "," + num2);
+      }
+      reverse(num1, num2);
+    </script>
+  </body>
+</html>
