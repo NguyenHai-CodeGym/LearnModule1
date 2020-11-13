@@ -1,0 +1,261 @@
+/* container */
+.body-container .review-wine1 {
+  display: flex;
+}
+
+/* review win1 */
+/* riview-left */
+.body-container .review-wine1 .review-left img {
+  width: 80%;
+  max-width: 80%;
+}
+
+/* riview-right */
+.body-container .review-wine1 .review-right .write {
+  padding-top: 10%;
+  width: 55%;
+}
+
+.body-container .review-wine1 .review-right h1 {
+  color: rebeccapurple;
+}
+
+/* review win2 */
+.body-container .review-wine2 {
+  display: flex;
+  background-color: black;
+  width: 100%;
+  margin-top: -0.5%;
+  text-align: center;
+}
+
+/* review-left2 */
+.body-container .review-wine2 .review-left2 img {
+  width: 166%;
+  margin: 5%;
+  margin-left: 22%;
+}
+
+.body-container .review-wine2 .review-right2 img {
+  width: 60%;
+  margin: 5%;
+  margin-left: 33%;
+}
+
+/* body- */
+.body-product1 {
+  display: flex;
+  padding: 10%;
+}
+
+/* right  */
+/* product-red */
+
+.body-product1 .right {
+  margin-right: 12%;
+}
+.body-product1 .left .product-red img {
+  width: 100%;
+  margin-top: 2%;
+  margin-left: -17%;
+}
+
+/* right */
+.body-product1 .right .wine-info2 {
+  background-color: black;
+  text-align: center;
+  color: white;
+  padding: 70%;
+  width: 238%;
+}
+.body-product1 .right .wine-info2 .text-primary {
+  color: #b0976d;
+}
+
+.body-product1 .right .wine-info2 h2 {
+  font-size: 38px;
+  margin-bottom: 30px;
+}
+
+.body-product1 .right .wine-info2 li {
+  list-style: none;
+  font-size: 20px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+
+.body-product1 .left .feature-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.body-product1 .left .text-primary {
+  color: #b0976d;
+  font-weight: bold;
+}
+
+.body-product1 .left .mb-20 {
+  margin-bottom: 20px;
+  color: silver;
+}
+
+.body-product1 .right .btn {
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size: 18px;
+  color: black;
+}
+
+/* product2 */
+.body-product2 {
+  background-color: black;
+  display: flex;
+}
+/* left */
+.body-product2 .left2 {
+  background-color: white;
+  padding: 8%;
+  margin: 5%;
+  padding-right: 7%;
+  margin-left: 1%;
+}
+.body-product2 .left2 .wine-info2 h2 {
+  font-size: 38px;
+}
+.body-product2 .left2 .text-primary {
+  color: #b0976d;
+  font-weight: bold;
+}
+
+.body-product2 .left2 .btn {
+  margin-top: 20%;
+  padding: 10%;
+  background-color: black;
+  color: white;
+  width: 120%;
+}
+
+.body-product2 .left2 .wine-info2 li {
+  font-size: 115%;
+  margin-top: 20%;
+}
+
+/* right */
+
+.body-product2 .right2 .product-white {
+  margin-top: 15%;
+  margin-left: 0.2%;
+}
+
+.body-product2 .right2 .product-white img {
+  width: 100%;
+  margin-left: 0.2%;
+}
+
+.body-product2 .right2 .feature-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.body-product2 .right2 .text-primary {
+  color: #b0976d;
+  font-weight: bold;
+}
+
+.body-product2 .right2 .mb-20 {
+  margin-bottom: 20px;
+  color: silver;
+}
+
+/* All Product */
+/* row1 */
+.all-product {
+  /* background-color: silver; */
+  background-image: url(../image/background/visit-us-back.jpg);
+}
+
+.all-product .row1 {
+  display: inline-flex;
+  margin-top: 5%;
+  text-align: center;
+}
+.all-product .row1 .product img {
+  width: 40%;
+}
+
+.all-product .row1 .btn-buy {
+  background-color: black;
+  color: white;
+  padding: 1%;
+  border-radius: 10%;
+}
+
+.all-product .row1 .btn-view {
+  background-color: white;
+  color: black;
+  padding: 1%;
+  border-radius: 10%;
+}
+
+.all-product .row1 .btn {
+  margin-top: 2%;
+}
+
+/* row2 */
+
+.all-product .row2 {
+  display: inline-flex;
+  margin-top: 5%;
+  text-align: center;
+}
+
+.product3 {
+  margin-left: 38%;
+}
+
+/* row3 */
+.all-product .row3 {
+  display: flex;
+  margin-top: 5%;
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+.product5 {
+  margin-left: 16%;
+}
+
+.product6 {
+  margin-left: 29%;
+}
+
+h2 {
+  font-weight: bold;
+  color: #cc00cc;
+}
+
+/* btn */
+.btn-buy {
+  background-color: black;
+  color: white;
+  padding: 2%;
+  border-radius: 10%;
+}
+
+.btn-view {
+  background-color: white;
+  color: black;
+  padding: 2%;
+  border-radius: 10%;
+}
+
+.btn {
+  margin-top: 2%;
+}

@@ -1,0 +1,63 @@
+.footer-sign {
+  background-color: white;
+  padding: 5%;
+  text-align: center;
+}
+.footer .footer-sign .cmt {
+  width: 80%;
+  padding: 6%;
+}
+
+.footer .footer-sign h3 {
+  color: burlywood;
+}
+
+/* footer-end */
+.footer-end {
+  background-color: black;
+}
+
+.footer-end .promise {
+  text-align: center;
+  padding: 5%;
+}
+
+.footer-end .promise h3 {
+  color: burlywood;
+}
+.footer-end .promise h1 {
+  color: burlywood;
+  font-size: 1%;
+}
+
+/* ftend */
+.footer .ftend a {
+  margin-top: 32%;
+  text-decoration: none;
+  color: rgba(248, 248, 248, 0.288);
+  padding-left: 7%;
+}
+
+.footer .ftend .icon a {
+  padding-left: 1%;
+}
+.link {
+  flex: 1;
+}
+
+.icon {
+  flex: 1;
+  text-align: right;
+}
+
+.ftend {
+  display: flex;
+}
+
+.fab {
+  color: rgba(248, 248, 248, 0.288);
+}
+i {
+  padding-left: 10%;
+  margin-right: 3%;
+}

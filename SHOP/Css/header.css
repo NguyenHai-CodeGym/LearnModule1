@@ -1,0 +1,65 @@
+/* header */
+
+/* header top */
+.container .top {
+  background-color: #1d1d1d;
+  color: #bca37b;
+  padding: 1%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container .top span {
+  padding-left: 7%;
+}
+
+.container .top span a {
+  color: #bca37b;
+}
+
+/* header container */
+.container .header-container {
+  background-image: url(../image/background/visit-us-back2.jpg);
+  width: 100%;
+  height: 55vh;
+  display: flex;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+/* header left */
+.container .header-container .header-left {
+  flex: 1;
+}
+.container .header-container img {
+  width: 70%;
+  /* margin-left: 20%; */
+}
+
+/* right */
+.menu a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  padding-right: 12%;
+  font-size: 130%;
+}
+
+.menu {
+  margin-top: 40%;
+  text-align: right;
+  display: block;
+  font-weight: bold;
+}
+
+.container .header-container .header-right {
+  flex: 1;
+}
+
+.img-wine {
+  width: 100%;
+}
+
+.product4 {
+  margin-left: 73%;
+}

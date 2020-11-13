@@ -1,0 +1,102 @@
+/* display: flex;
+  justify-content: space-between; */
+
+@media only screen and (max-width: 812px) {
+  /* header-top */
+  .container .header-top .top {
+    display: none;
+  }
+
+  /*header-container */
+  .container .header-top .header-container {
+    padding: 10%;
+  }
+  /* review-wine1 */
+  /* header-container left */
+  .container .header-top .header-container img {
+    width: 200px;
+    margin-top: -30%;
+    margin-left: -21%;
+  }
+
+  /*body container */
+  .body-container .review-wine1 {
+    display: block;
+  }
+
+  /* riview-right */
+  .body-container .review-wine1 .review-right {
+    text-align: center;
+    width: 100%;
+    padding-left: 28%;
+  }
+
+  /* review-wine2 */
+  .body-container .review-wine2 {
+    display: block;
+  }
+
+  /* review-left2 */
+  .body-container .review-wine2 .review-left2 img {
+    width: 88%;
+    margin-left: 4%;
+  }
+
+  /* review-right2 */
+  .body-container .review-wine2 .review-right2 img {
+    width: 88%;
+    margin-left: 4%;
+  }
+
+  /* body-product */
+  /* right */
+
+  .body-product1 {
+    display: block;
+  }
+
+  .body-product1 .right {
+    width: 46%;
+    margin-left: -3%;
+  }
+
+  .body-product2 {
+    display: block;
+  }
+
+  .body-product2 .left2 {
+    width: 80%;
+    margin: 12%;
+  }
+
+  .body-product2 .left2 .btn {
+    width: 90%;
+  }
+  /* all Product */
+  .all-product .row1 {
+    display: block;
+  }
+  .all-product .row2 {
+    display: block;
+  }
+  .all-product .row3 {
+    display: block;
+  }
+
+  .all-product .row2 .product3 {
+    margin-left: 0%;
+  }
+  .all-product .row2 .product4 {
+    margin-left: 0%;
+  }
+  .all-product .row3 .product5 {
+    margin-left: 0%;
+  }
+  .all-product .row3 .product6 {
+    margin-left: 0%;
+  }
+
+  .all-product .row1 .product img {
+    width: 70%;
+  }
+}

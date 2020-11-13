@@ -6,6 +6,42 @@
     <title>Document</title>
   </head>
   <body>
-    <script></script>
+    <script>
+      let arr = [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+      ];
+
+      Function check(){
+        let V = parseInt(prompt("Enter:"));
+        for(let i =0; i < arr.length;i++){
+          if (arr[i] == V) {
+            document.write('V is in the array')
+          } else {
+            ('"V is not in the array".');
+          }
+        }
+        return V;
+      }
+      check();
+    </script>
   </body>
 </html>
